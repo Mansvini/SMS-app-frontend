@@ -7,7 +7,9 @@ const MessageHistoryCard=({number, time, message})=>{
 					{number}
 				</h2>
 				<p className= 'f6 link dim black db pointer'>
-					{time} 
+					{time}
+				</p>
+				<p className= 'f6 link dim black db pointer'>  
 					{message}
 				</p>
 		</div>
