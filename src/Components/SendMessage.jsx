@@ -21,7 +21,7 @@ const SendMessage=()=>{
 
 	return(
 		<div>
-			<h2 className='center pa4 br3 black-50 shadow-5 form'>
+			<h2 className='ba b--white center pa4 lightest-blue shadow-5 form'>
 				" Hi, your OTP is {OTP}"
 			</h2>
 			<button
