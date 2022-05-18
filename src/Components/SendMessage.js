@@ -5,7 +5,7 @@ const OTP= Math.floor((Math.random() * 900000) + 100000);
 
 const sendOTP=(number)=>{
 	//connect to backend to send msg
-	fetch('http://localhost:3001/SendMessage', {
+	fetch('https://sms-app-backend-mansvini.herokuapp.com/SendMessage', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({

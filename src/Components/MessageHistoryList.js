@@ -10,7 +10,7 @@ class Contactlist extends Component {
 	}
 
 	componentDidMount(){
-		fetch('http://localhost:3001/MessageHistory')
+		fetch('https://sms-app-backend-mansvini.herokuapp.com/MessageHistory')
 		.then(response=> response.json())
 		.then(messagesArray=>this.setState({messages:messagesArray}));
 	} 
