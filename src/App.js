@@ -31,7 +31,7 @@ class App extends Component {
       <div>
         <Routes>
           <Route path="/Home" element={<Home/>} />
-          <Route path="/" element={<Navigate replace to="/Home" />} />
+          <Route path="*" element={<Navigate replace to="/Home" />} />
           <Route path="/ContactList" element={<ContactList/>} />
           <Route path="/MessageHistoryList" element={<MessageHistoryList/>} />
           <Route path="/ContactInfo" element={<ContactInfo />} />
