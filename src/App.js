@@ -4,13 +4,14 @@ import 'tachyons';
 import Home from './Components/Home';
 import ContactList from './Components/ContactList';
 import MessageHistoryList from './Components/MessageHistoryList';
-import { Routes, Navigate, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Navigate, Route} from "react-router-dom";
 import ContactInfo from './Components/ContactInfo';
 import SendMessage from './Components/SendMessage';
 
 class App extends Component {
   render(){
     return (
+      <BrowserRouter>
       <Routes>
         <Route path="/Home" element={<Home/>} />
         <Route path="/" element={<Navigate replace to="/Home" />} />
@@ -19,6 +20,7 @@ class App extends Component {
         <Route path="/ContactInfo" element={<ContactInfo />} />
         <Route path="/SendMessage" element={<SendMessage />} />
       </Routes>
+      </BrowserRouter>
     );
   }
 }
