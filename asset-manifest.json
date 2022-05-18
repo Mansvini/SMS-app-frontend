@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SMS-app-frontend/static/css/main.1675f363.css",
-    "main.js": "/SMS-app-frontend/static/js/main.bda73cc4.js",
+    "main.js": "/SMS-app-frontend/static/js/main.eeefd8e6.js",
     "static/js/787.c42dc730.chunk.js": "/SMS-app-frontend/static/js/787.c42dc730.chunk.js",
     "index.html": "/SMS-app-frontend/index.html",
     "main.1675f363.css.map": "/SMS-app-frontend/static/css/main.1675f363.css.map",
-    "main.bda73cc4.js.map": "/SMS-app-frontend/static/js/main.bda73cc4.js.map",
+    "main.eeefd8e6.js.map": "/SMS-app-frontend/static/js/main.eeefd8e6.js.map",
     "787.c42dc730.chunk.js.map": "/SMS-app-frontend/static/js/787.c42dc730.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1675f363.css",
-    "static/js/main.bda73cc4.js"
+    "static/js/main.eeefd8e6.js"
   ]
 }
