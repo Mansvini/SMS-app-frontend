@@ -24,7 +24,7 @@ class Contactlist extends Component {
 					<MessageHistoryCard 
 					key={i}
 					number={this.state.messages[i].to} 
-					time={this.state.messages[i].date_sent}
+					time={this.state.messages[i].dateSent}
 					message={this.state.messages[i].body}
 					/>
 					);
