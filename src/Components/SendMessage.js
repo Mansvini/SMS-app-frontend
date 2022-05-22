@@ -17,10 +17,12 @@ const sendOTP=(number)=>{
 
 const SendMessage=()=>{
 	const location = useLocation()
-  	const { phone } = location.state;
+  	const {name,  phone } = location.state;
 
 	return(
 		<div>
+			<h1><div className='f2 tc white'>Message</div>
+			 <div className='f2 tc white i'>{name.name.name}</div></h1>
 			<h2 className='ba b--white center pa4 lightest-blue shadow-5 form'>
 				" Hi, your OTP is {OTP}"
 			</h2>

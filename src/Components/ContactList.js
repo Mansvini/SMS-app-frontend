@@ -5,6 +5,7 @@ import ContactCard from "./ContactCard";
 const Contactlist=()=>{
 	return (
 	<div>
+		<h1 className='f2 tc white'>CONTACTS</h1>
 	{
 		contacts.map((user,i)=>{
 		return(

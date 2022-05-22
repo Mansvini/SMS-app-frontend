@@ -6,6 +6,8 @@ const ContactInfo=()=>{
 	const location = useLocation()
   	const { name, phone } = location.state
 	return(
+		<div>
+		<h1 className='f2 tc white '>CONTACT INFO</h1>
 		<div className='w-100 bg-light-blue tc dib br3 pa3 ma2 bw2 shadow-5'>
 			<h2>
 				{name.name}
@@ -14,10 +16,11 @@ const ContactInfo=()=>{
 				{phone.phone}
 			</p>
 			<button className='center w-30 grow f4 link ph3 pv2 dib white bg-blue'>
-				<Link to="/SendMessage" state={{ phone: {phone} }}>
+				<Link to="/SendMessage" state={{ name: {name} , phone: {phone}}}>
 					Send OTP message
 				</Link>
 			</button>
+		</div>
 		</div>
 		);
 	}

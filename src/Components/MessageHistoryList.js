@@ -18,6 +18,7 @@ class Contactlist extends Component {
 	render(){
 		return (
 			<div>
+				<h1 className='f2 tc white'>Message History</h1>
 			{
 				this.state.messages.map((message,i)=>{
 				return(
